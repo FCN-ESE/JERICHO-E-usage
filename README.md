@@ -1,0 +1,2 @@
+# JERICHO-E-usage
+The JERICHO-E-usage dataset including code for compilation. The dataset includes time series of useful energy consumption patterns for energy system modeling. The time series data covers 38 NUTS2 regions in germany and has an hourly resolution. The dataset distinguished between four sectors - the residential, the industrial, the commerce, and the mobility sectors. Useful energy types comprise space heating, warm water, process heating, space cooling, process cooling, mechanical energy, information and communication technology, and lighting.
