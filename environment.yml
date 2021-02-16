@@ -1,0 +1,13 @@
+name: JERICHO-E-usage
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - conda-forge::jupyter
+  - conda-forge::notebook
+  - pyomo
+  - glpk
+  - pandas
+  - numpy
+  - xlrd
+  - openpyxl
