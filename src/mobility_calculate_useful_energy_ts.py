@@ -215,7 +215,7 @@ def validate_and_scale_ts(bio_fuel_shares, benchmark_values_twh):
         print("Scaling factor of %s is %f" % (p, pyomo.value(model.scaling_factor_p[p])))
         scaling_factor[p] = pyomo.value(model.scaling_factor_p[p])
     for f in model.F:
-        print("Deviation in %s is %f TWh" % (f, pyomo.value(model.FE_deviation_f[f])))
+        print("Deviation in %s is %f TWh" % (f, pyomo.value(model.FE_deviation_pos_f[f] + model.FE_deviation_neg_f[f])))
 
 
     # 5. Validate  data and calculate scaling factors
